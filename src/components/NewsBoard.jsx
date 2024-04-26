@@ -20,7 +20,7 @@ export const NewsBoard = ({ category }) => {
       <h2 className="text-center">
         Latest <span className="badge bg-danger">News</span>
       </h2>
-      {articles.map((news, ind) => {
+      {articles?.map((news, ind) => {
         return (
           <NewItem
             key={ind}
